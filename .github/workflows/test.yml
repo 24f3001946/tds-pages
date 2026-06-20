@@ -1,14 +1,12 @@
 name: Test Action
 
 on:
-workflow_dispatch:
+  workflow_dispatch:
 
 jobs:
-test:
-runs-on: ubuntu-latest
+  test:
+    runs-on: ubuntu-latest
 
-```
-steps:
-  - name: 24f3001946@ds.study.iitm.ac.in
-    run: echo "Hello, world!"
-```
+    steps:
+      - name: 24f3001946@ds.study.iitm.ac.in
+        run: echo "Hello, world!"
